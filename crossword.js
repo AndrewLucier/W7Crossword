@@ -49,7 +49,7 @@ function buildClues(wordIndex, direction, startingRow, startingCol, table, showA
         // get the relevant row from the table
         tr = table.rows[rowIndex];
         // get the relevant column from the table
-        td = table.colls[colIndex];
+        td = tr.cells[colIndex];
 
         // if no children have been added to the td/cell, then add an input box
         // this prevents multiple input boxes from being added to the same cell
